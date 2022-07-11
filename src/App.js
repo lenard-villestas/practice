@@ -7,9 +7,18 @@ import PicTable from './lab5/PicTable';
 function App() {
   return (
     <div className="App">
-      <PicTable/>
-      {/*<PostList/>*/}
-      {/*<PostForm></PostForm>*/}
+      
+      {/**** Lab 5 - Post Get Delete
+        <PicTable/>
+
+        */}
+
+
+      {
+      /******** for lessons ***********
+      <PostList/>
+      <PostForm></PostForm>*/}
+
     </div>
   );
 }
