@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import PostList from './http/PostList';
+import PostList from './http_lesson/PostList';
+import PostForm from './http_lesson/PostForm';
+import PicTable from './lab5/PicTable';
 
 function App() {
   return (
     <div className="App">
-      <PostList/>
+      <PicTable/>
+      {/*<PostList/>*/}
+      {/*<PostForm></PostForm>*/}
     </div>
   );
 }

@@ -6,7 +6,8 @@ class PostList extends Component {
         super(props)
 
         this.state = {
-            posts: []
+            posts: [],
+            error: 'No Error'
         }
     }
     componentDidMount() {
@@ -17,17 +18,23 @@ class PostList extends Component {
             })
             .catch(error => {
                 console.log(error)
+                this.setState({
+                    error:'Error Error'
+                })
             })
     }
     render() {
-        const { posts } = this.state;
+        let { posts } = this.state;
 
+        
 
         return (
             <div> <h1>List of posts</h1>
 
                 {posts.length ?
                     posts.map(post => <div key={post.id}> {post.title} </div>):null}
+
+                    <h2>{this.state.error}</h2>
             </div>
 
 
