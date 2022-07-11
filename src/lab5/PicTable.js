@@ -9,15 +9,15 @@ class Table extends Component {
       
       <table>
         
-        <tr>
+        <thead>
           <th>ID</th>
           <th>Title</th>
           <th>Thumbnail</th>
           <th>Delete</th>
-        </tr>
+        </thead>
         <GetPics/>
       </table>
-      
+
       </div>
     )
   }

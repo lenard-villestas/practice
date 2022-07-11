@@ -5,9 +5,29 @@ table{
     border-radius: 1rem;
     padding: 2rem;
     background-color: rgb(242, 241, 241);
+    
+    
 }
 th{
     font-size: 1.5rem;
     padding: 1rem;
-
+    background-color: rgb(165, 142, 238);
+    color: aliceblue;
+    
+}
+table img {
+    border-radius: 10px;
+    box-shadow: 0 0 5px black;
+}
+td{
+    padding: 2rem;
+}
+tr:nth-child(even){
+    background-color: rgb(216, 216, 216);
+}
+h1{
+   color: rgb(140, 114, 224);
+}
+body{
+    background-color: rgb(253, 241, 253);
 }
