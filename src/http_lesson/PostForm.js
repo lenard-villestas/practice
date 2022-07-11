@@ -18,7 +18,7 @@ export class PostForm extends Component {
         console.log(this.state)
         e.preventDefault()
 
-        axios.post("https://jsonplaceholder.typicode.com/post",this.state)
+        axios.post("https://jsonplaceholder.typicode.com/posts",this.state)
         .then(response => {
             console.log(response)
         })

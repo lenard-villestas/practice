@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <AddForm/>
+      
       {/**** Lab 5 - Post Get Delete
         <PicTable/>
 

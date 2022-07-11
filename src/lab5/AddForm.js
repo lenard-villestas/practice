@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import axios from 'axios'
+import './form.css'
 
 class AddForm extends Component {
     constructor(props) {
@@ -10,7 +12,16 @@ class AddForm extends Component {
       }
     }
     submitHandler = (e) => {
+        console.log(this.state)
+        e.preventDefault()
 
+        axios.post('https://jsonplaceholder.typicode.com/posts',this.state)
+        .then(response => {
+            console.log(response)
+        })
+        .catch(error => {
+            console.log(error)
+        })
     }
     changeHandler = (e) => {
         this.setState({[e.target.id]:e.target.value})

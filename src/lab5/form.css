@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(202, 240, 249);
+}
+table{
+    margin: auto;
+    margin-top: 10%;
+    background-color: aliceblue;
+}
+td{
+    font-size: 1.5rem;
+    background-color: aliceblue;
+}
+td input{
+    background-color: rgb(251, 251, 251);
+    font-size: 1.5rem;
+    border-style: none;
+    box-shadow: 0 0 10px rgb(193, 217, 238);
+    border-radius: 2px;
+}
+td button{
+    font-size: 2rem;
+    border-radius: 1em;
+    padding: 0.5em;
+    background-color:rgb(160, 185, 243);
+    color: white;
+    border-style: none;
+    box-shadow: 0 0 10px gray;
+}
